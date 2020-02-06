@@ -1,0 +1,14 @@
+name: MMOSystem
+api: ["1.0.8"]
+version: "1.0.0"
+author: "马踏踏"
+main: MMOSystem.MMOSystem
+load: POSTWORLD
+depend: ["ServerCore", "VIPSystem"]
+permissions:
+  MMOSystem:
+    children:
+      MMOSystem.command:
+        children:
+          MMOSystem.command.mmo:
+            default: true

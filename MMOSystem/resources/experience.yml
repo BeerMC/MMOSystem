@@ -1,0 +1,15 @@
+#经验倍数
+#请不要修改文件版本这一数值
+文件版本: 1
+Experience_Formula:
+    Modifier:
+        sword: 1.0
+        arrow: 1.0
+        axe: 1.0
+        excavation: 1.0
+        woodcutting: 1.0
+        mining: 1.0
+        gardening: 1.0
+        farming: 1.0
+        acrobatics: 1.0
+        fishing: 1.0

@@ -1,0 +1,263 @@
+#部分技能产生的随机奖励
+#请不要修改文件版本这一数值
+文件版本: 1
+excavation:
+    MELON_SEEDS:
+        ID: "362:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    PUMPKIN_SEEDS:
+        ID: "361:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    COCOA_BEANS:
+        ID: "127:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    CARROT:
+        ID: "391:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    POTATO:
+        ID: "392:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    GUNPOWDER:
+        ID: "289:0:1"
+        XP: 30
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    BONE:
+        ID: "352:0:1"
+        XP: 30
+        Drop_Chance: 80.0
+        Drop_Level: 45
+    SLIME_BALL:
+        ID: "341:0:1"
+        XP: 100
+        Drop_Chance: 50.0
+        Drop_Level: 55
+    BUCKET:
+        ID: "325:0:1"
+        XP: 100
+        Drop_Chance: 20.0
+        Drop_Level: 260
+    PAPER:
+        ID: "339:0:1"
+        XP: 30
+        Drop_Chance: 50.0
+        Drop_Level: 100
+    RED_MUSHROOM:
+        ID: "40:0:1"
+        XP: 80
+        Drop_Chance: 60.0
+        Drop_Level: 150
+    BROWN_MUSHROOM:
+        ID: "39:0:1"
+        XP: 80
+        Drop_Chance: 60.0
+        Drop_Level: 150
+    EGG:
+        ID: "344:0:1"
+        XP: 100
+        Drop_Chance: 60.0
+        Drop_Level: 0
+    COBWEB:
+        ID: "30:0:1"
+        XP: 150
+        Drop_Chance: 80.0
+        Drop_Level: 300
+    STRING:
+        ID: "287:0:1"
+        XP: 200
+        Drop_Chance: 80.0
+        Drop_Level: 250
+    GLOWSTONE_DUST:
+        ID: "348:0:1"
+        XP: 80
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    DIAMOND:
+        ID: "264:0:1"
+        XP: 1000
+        Drop_Chance: 25.0
+        Drop_Level: 100
+    NETHER_STAR:
+        ID: "399:0:1"
+        XP: 0
+        Drop_Chance: 3.0
+        Drop_Level: 600
+    BOX:
+        ID: "445:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    LINPIAN:
+        ID: "409:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 100
+    TOTEM:
+        ID: "450:0:1"
+        XP: 3000
+        Drop_Chance: 5.0
+        Drop_Level: 250
+    XPBOTTLE:
+        ID: "384:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    GMH:
+        ID: "432:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    GMHK:
+        ID: "433:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    DRAGON:
+        ID: "437:0:1"
+        XP: 100
+        Drop_Chance: 5.0
+        Drop_Level: 300
+    FLYER:
+        ID: "444:0:1"
+        XP: 100
+        Drop_Chance: 5.0
+        Drop_Level: 450
+#
+#  花匠
+###
+gardening:
+    FLOWER_0:
+        ID: "37:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    FLOWER_1:
+        ID: "38:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    FLOWER_2:
+        ID: "38:1:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 25
+    FLOWER_3:
+        ID: "38:2:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 50
+    FLOWER_4:
+        ID: "38:3:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 100
+    FLOWER_5:
+        ID: "38:4:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 75
+    FLOWER_6:
+        ID: "38:5:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 75
+    FLOWER_7:
+        ID: "38:6:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 75
+    FLOWER_8:
+        ID: "38:7:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 125
+    FLOWER_9:
+        ID: "38:8:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 50
+    FLOWER_10:
+        ID: "38:9:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 150
+    FLOWER_11:
+        ID: "38:10:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 150
+    FLOWER_12:
+        ID: "175:0:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 0
+    FLOWER_13:
+        ID: "175:1:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 35
+    FLOWER_14:
+        ID: "175:4:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 35
+    FLOWER_15:
+        ID: "175:5:1"
+        XP: 0
+        Drop_Chance: 80.0
+        Drop_Level: 35
+    EMERALD:
+        ID: "388:0:1"
+        XP: 0
+        Drop_Chance: 20.0
+        Drop_Level: 260
+    DIAMOND:
+        ID: "264:0:1"
+        XP: 0
+        Drop_Chance: 30.0
+        Drop_Level: 225
+    GOLD_NUGGET:
+        ID: "371:0:1"
+        XP: 0
+        Drop_Chance: 60.0
+        Drop_Level: 175
+    IRON_INGOT:
+        ID: "265:0:1"
+        XP: 0
+        Drop_Chance: 50.0
+        Drop_Level: 100
+    XPBOTTLE:
+        ID: "384:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    GMH:
+        ID: "432:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    GMHK:
+        ID: "433:0:1"
+        XP: 100
+        Drop_Chance: 15.0
+        Drop_Level: 0
+    DRAGON:
+        ID: "437:0:1"
+        XP: 100
+        Drop_Chance: 5.0
+        Drop_Level: 300
+    FLYER:
+        ID: "444:0:1"
+        XP: 100
+        Drop_Chance: 5.0
+        Drop_Level: 450
