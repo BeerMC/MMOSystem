@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class ReloadConfig {
 	private static final String V = "1";
-	private static final String[] Files = { "experience.yml", "treasures.yml","message.yml"};
+	private static final String[] Files = { "experience.yml", "treasures.yml","message.yml", "config.yml"};
 	private static final String V_Key = "文件版本";
 
 	/**

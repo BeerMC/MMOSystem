@@ -27,6 +27,7 @@ public class MMOSystem extends PluginBase {
 
     public Config xpconfig;
     public Config trconfig;
+    public Config config;
     private Message message;
 
     public DBUtil db;
@@ -59,6 +60,7 @@ public class MMOSystem extends PluginBase {
         ReloadConfig.start();
         xpconfig = new Config(this.getDataFolder() + "/experience.yml", Config.YAML);
         trconfig = new Config(this.getDataFolder() + "/treasures.yml", Config.YAML);
+        config = new Config(this.getDataFolder() + "/config.yml", Config.YAML);
         message = new Message(this);
     }
 

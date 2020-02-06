@@ -51,9 +51,11 @@ public class EventListener implements Listener {
             plugin.registerPlayer(p);
         }
         plugin.loginPlayer(p);
-        AcrobaticsManager.getInstance().handleSpawn(p);
-        GardeningManager.getInstance().handleSpawn(p);
-        FarmingManager.getInstance().handleSpawn(p);
+        if(plugin.config.getBoolean("修改血量上限")){
+            AcrobaticsManager.getInstance().handleSpawn(p);
+            GardeningManager.getInstance().handleSpawn(p);
+            FarmingManager.getInstance().handleSpawn(p);
+        }
         /*
         Object health = plugin.getData("basis", "account", p.getName(), "health");
         if(health != null){
