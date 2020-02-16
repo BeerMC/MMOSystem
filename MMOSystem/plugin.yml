@@ -1,6 +1,6 @@
 name: MMOSystem
 api: ["1.0.8", "1.0.9"]
-version: "1.0.4"
+version: "1.0.5"
 author: "马踏踏"
 main: MMOSystem.MMOSystem
 load: POSTWORLD
