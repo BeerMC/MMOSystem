@@ -80,7 +80,7 @@ public class AcrobaticsManager extends Manager {
 	}
 
 	public int calculateXP(Player p , float damage){
-		return (int)(damage * 40);
+		return (int)(damage * 40 * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 	}
 
 

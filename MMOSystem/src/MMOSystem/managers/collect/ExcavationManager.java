@@ -121,7 +121,7 @@ public class ExcavationManager extends Manager {
 		if(original_xp == 0){
 			return original_xp;
 		}else{
-			return (int)(original_xp * 0.7);
+			return (int)(original_xp * 0.7 * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 		}
 	}
 

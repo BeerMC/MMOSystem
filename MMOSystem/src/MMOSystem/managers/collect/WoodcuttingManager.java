@@ -95,7 +95,7 @@ public class WoodcuttingManager extends Manager {
 		if(original_xp == 0){
 			return original_xp;
 		}else{
-			return (int)(original_xp);
+			return (int)(original_xp  * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 		}
 	}
 

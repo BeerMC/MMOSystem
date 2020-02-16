@@ -184,7 +184,7 @@ public class GardeningManager extends Manager {
 		if(original_xp == 0){
 			return original_xp;
 		}else{
-			return (int)(1.4 * original_xp);
+			return (int)(1.4 * original_xp  * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 		}
 	}
 

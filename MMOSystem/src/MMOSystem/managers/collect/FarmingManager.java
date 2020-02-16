@@ -144,7 +144,7 @@ public class FarmingManager extends Manager {
 	}
 
 	private int calculateHarvestXP(Player p , Block block){
-		return (int)(0.3 * getHarvestXP(block));
+		return (int)(0.3 * getHarvestXP(block) * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 	}
 
 	private int getPlantXP(Item item){

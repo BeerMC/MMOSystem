@@ -5,10 +5,7 @@ import cn.nukkit.Player;
 import cn.nukkit.level.Sound;
 
 public class SoundManager extends Manager{
-    /**
-     * Sends a sound to the player
-     * @param soundType the type of sound
-     */
+
     public static void sendSound(Player player, SoundType soundType)
     {
         if(player != null){

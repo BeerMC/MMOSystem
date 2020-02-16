@@ -76,7 +76,7 @@ public class AxeManager extends Manager{
 
 
 	public int calculateXP(Player p ,float damage){
-		return (int)(damage * 4.5);
+		return (int)(damage * 4.5 * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 	}
 
 }

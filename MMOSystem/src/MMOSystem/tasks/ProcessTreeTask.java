@@ -1,6 +1,3 @@
-/*
-Author: mcMMO-Dev
- */
 package MMOSystem.tasks;
 
 import MMOSystem.MMOSystem;
@@ -19,6 +16,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+
+/**
+ * @author mcMMO-Dev
+ */
 public class ProcessTreeTask extends AsyncTask{
 
 	private Player p;

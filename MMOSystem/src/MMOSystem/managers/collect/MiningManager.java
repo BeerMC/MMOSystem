@@ -136,7 +136,7 @@ public class MiningManager extends Manager{
 		if(original_xp == 0){
 			return original_xp;
 		}else{
-			return (int)(original_xp * 0.6);
+			return (int)(original_xp * 0.6  * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 		}
 	}
 

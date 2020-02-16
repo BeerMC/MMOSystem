@@ -4,7 +4,6 @@ version: "1.0.4"
 author: "马踏踏"
 main: MMOSystem.MMOSystem
 load: POSTWORLD
-depend: ["DbLib"]
 permissions:
   MMOSystem:
     children:

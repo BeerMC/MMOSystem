@@ -113,7 +113,7 @@ public class FishingManager extends Manager{
 				player.addExperience(experience);
 			}
 
-			plugin.addXp(player, getJobName(), xp);
+			plugin.addXp(player, getJobName(), (int)(xp * plugin.xpconfig.getSection("Multiply").getDouble(getJobName())));
 		}
 		if (hook.shootingEntity instanceof Player) {
 			EntityEventPacket pk = new EntityEventPacket();

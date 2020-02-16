@@ -77,7 +77,7 @@ public class ArrowManager extends Manager{
 
 
 	public int calculateXP(Player p ,float damage){
-		return (int)(damage * 6);
+		return (int)(damage * 6  * plugin.xpconfig.getSection("Multiply").getDouble(getJobName()));
 	}
 
 }
